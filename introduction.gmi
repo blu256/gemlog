@@ -1,0 +1,17 @@
+# Introductory post
+
+Hello and welcome to my Gemini capsule!
+
+I'm known by the pseudonym of blu.256 and I'm to be your host for tonight (just kidding).
+
+My interests revolve around technology, software freedom, privacy,
+mass media and many other topics.
+
+At present there might be not much to see here. For now I plan to migrate here two articles I originally wrote for my old blog, which I have decided to discontinue.
+
+An Atom feed is planned soon, too.
+
+## Changelog
+```
+2021/09/20  Initial version
+```
