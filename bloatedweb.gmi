@@ -1,0 +1,56 @@
+# A Tale of the bloated Web
+(and Wix in particular)
+```
+Note: this was originally published on May 02, 2021.
+```
+
+It would be reasonable to say that with faster connections and improved web-browsers, modern web-sites would load absurdly quickly. But most of them do not. What went wrong here?
+
+## Wix: freedom to create?
+Almost certainly there was at least one time when you stumbled upon a website created with this tool. Wix promises a free tool, which will provide you with "freedom to create" [sic!] your very own place on the web.
+
+Wix is a modern web-app which runs 100% in your browser. Not only is it a WYSIWYG editor, but it does not let you type any code except for some custom JavaScript which has to make use of its own API. Which means that if you think that you can create something custom with Wix, you're probably going to be let down.
+
+Of course, being a WYSIWYG editor, its web-sites must be able to adapt to a vast number of different use cases. Being a beginner-orientated tool, it also tries to cater primarily to non-technical users who do not even need to know the basic distinction between Internet and the World Wide Web.
+
+## The Web is Bloated
+All of those factors are having a negative impact on the pages that Wix produces. These are huge, bloated conglomerations of obfuscated JavaScript code, most of it originating from external CDNs.
+
+This is to say that Wix-made web-sites are contributing, like nobody else, to the modern problem of the Web's uncontrolled bloat. A theoretically simple web-page with, say, a recipe will take half a minute to load on a relatively good connection. Why? Because it doesn't load just the recipe. What a web-browser also loads is the huge web-page stylesheets, adapted to a lot of different screen sizes, similar recipes picked by a smartass algorithm whose mission is to make you stay longer on the web-site and come back more often for new and new content (isn't this like what most supermarkets do with loyalty cards?), a lot of JavaScript code by third parties used for tracking your every move across the Web, JavaScript code by social media used to connect the article you read with a social experience etc.
+
+In short, if I were to write down all that gets loaded on a seemingly "simple" web-page, I'd probably need a separate article just for that. The Modern Web is extremely bloated, and there is no reason (on the user's side) for most of the bloat.
+
+## Wix vs. Tolstoy
+
+But let us return to Wix, which is an example characteristic of this problem. And it's not only the web-sites it produces which are so terribly overweight. The editor itself takes a while to load even on a relatively good connection.
+
+Maciej Cegłowski, the mind behind the blog Idle Words, has proposed somewhat of an obesity test for modern web-sites:
+
+> "text-based websites should not exceed in size the major works of Russian literature"
+
+The original article can be found on Maciej's blog:
+
+=> https://idlewords.com/talks/website_obesity.htm#crisis The Website Obesity Crisis, on Idle Thoughts
+
+The idea presented is actually brilliant. It should certainly show how much stuff is loaded in the background and what difference it makes when compared to just the actual content. So let's see it applied to a Wix website. I'll use Tolstoy's four (virtual) tomes of War and Peace for comparison.
+
+```
+    3,991 kB    War and Peace
+    3,912 kB    Wix web-site
+```
+
+I tested with the Index page of a typical Wix web-site, with a lightbox, some text and links. After a while, the web-site had loaded another 1214 kB (because of the slideshow).
+But what is more interesting is to test the Wix Editor itself. Let's see:
+
+```
+    3,991  kB    War and Peace
+    99,281 kB    Wix Editor
+```
+So, the Wix Editor weighs nearly 25 times as much as the whole War and Peace. And pretty much of it is stored on your computer, taking up your machine's precious disk space. (Heck, even a full installation of FrontPage would weigh less than Wix Editor!)
+
+## Smolnet: an alternative to the bloated Web?
+Taking these data into account (as well as more data presented on Idle Words) it does make sense that the long-thought-dead Gopher protocol is actually gaining interest. The 'smolnet' (or 'slow internet') movement is prospering and recently, a new protocol which aims to fill the space between Gopher and HTTP appeared. It's called Gemini and no, there is no server-side control of how the page will be presented. Nor is there any way of controlling the page fron the server side after it has been loaded.
+
+You can see Gemini and its likes as the tech community's answer to the "modern" bloated and commercialized Web. A Web of Platforms. A Web controlled by big tech. A Web of Bloat, Surveillance, Big Data (and thus Big Cash).
+
+You can expect this movement to grow in years to come. Not some sort of Big Bang, like the WWW. It will probably never be 'mainstream'. But at least, it will be a viable alternative for those of us who actually care more about *content* than they do about presentation.

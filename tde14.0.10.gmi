@@ -1,0 +1,56 @@
+# Release: TDE R14.0.10
+```
+Note: this was originally published on May 02, 2021.
+```
+
+On 30th of April 2020, The Trinity Desktop project released TDE R14.0.10. TDE is a traditional desktop environment for *nix-like systems originally forked from KDE 3.5, which is not developed anymore.
+
+=> res/TDE.png Screenshot
+
+The new release includes numerous improvements, bugfixes, as well as several new applications. Let's look through the most interesting changes that come with this release:
+
+# Overview
+## Applications
+### KlamAV
+After nearly 8 years of stagnation, KlamAV gets a new life under the TDE umbrella.
+
+KlamAV is a sophisticated anti-virus manager for ClamAV with useful features like scan scheduling, on-access scanning, per-user signature storage, automatic updates and even a virus research tool (not quite unlike ClamTk).
+
+The new on-access tool is based on 'clamonacc', which is bundled with a typical ClamAV installation, and is experimental. Currently, it requires root privileges to start and manage 'clamonacc'.
+
+### Komposé
+For those who love Apple's Exposé functionality, R14.0.10 brings Komposé, a simple and customizable fullscreen window and desktop manager.
+
+Komposé provides an overview of all your windows and desktops (or just the current one, if you choose the appropriate mode). Do try it before making assumptions of any kind. You will probably like it!
+
+### TDEFifteen
+The q15 game has made it into tdegames, under the name TDEFifteen.
+
+This game is a "fifteen" puzzle in which you have to rearrange numbers so that they are in the correct order.
+
+### Pinentry-TQT
+R14.0.10 includes a new pinentry dialog, namely pinentry-tqt.
+
+This type of dialog is used e.g. for entering GnuPG passwords and PINs.
+
+## Bugfixes
+* The long-time bug which caused Konqueror crashing when copying files has been fixed. It turned out it was related to a... clipboard conflict between Klipper and Konqueror.
+
+* TDE Control Center now displays KSplash theme information normally.
+
+* TDevelop no more crashes when working with BASH scripts.
+
+## New features
+* KPDF got a new cover page mode.
+
+* KWeather got various improvements for its weather station list, such as automatic list generation by CMake, some factual fixes, cleanups and additions.
+
+* RISC-V processor support (32-bit and 64-bit).
+
+* Major enhancements to kvkbd, the TDE on-screen virtual keyboard.
+
+* Monitor brightness can now be adjusted with 1% step (on condition that the monitor supports this).
+
+### Links
+=> https://wiki.trinitydesktop.org/Release_Notes_For_R14.0.10	Release Notes
+=> https://wiki.trinitydesktop.org/Changelog_For_R14.0.10	ChangeLog
