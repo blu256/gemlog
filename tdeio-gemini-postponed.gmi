@@ -1,0 +1,24 @@
+# tdeio-gemini postponed
+
+As you may already know, I have started to work on adding Gemini protocol support for the Trinity Desktop, and Konqueror in particular.
+
+The state of affairs with tdeio-gemini is this:
+
+* Most existing bugs have been solved. The experience is pretty stable (at least for me ;-).
+* Konqueror provides for us nice things like bookmarks and an "Up" button.
+* Local files are also supported.
+
+Current problems are:
+
+* Input support is not ready yet. This is because it turned out we cannot create a GUI through a TDEIO process, so an internal "helper" application of some sorts will have to be creted to this end.
+* Client certificates are not supported yet either. While the infrastructure seems to be in place, I still haven't figured out how to implement this.
+* Some Unicode ranges are not supported by the GUI toolkit (namely TQt), and thus they don't work in tdeio-gemini.
+
+These problems, as well as my taking interest in several TDE menu issues, will probably mean postponing the release of tdeio-gemini 1.0.
+
+Also, I have begun assembling a list with things to include in a next 1.1 release. For now it's a settings dialog with customization options, but if you get a cool idea don't hesitate to come in touch with me!
+
+You can get the current revision of tdeio-gemini at my repository in TGW:
+=> https://mirror.git.trinitydesktop.org/gitea/blu.256/tdeio-gemini tdeio-gemini
+
+Bug reports and feature requests are welcome!

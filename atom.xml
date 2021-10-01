@@ -4,7 +4,14 @@
 	<link href="gemini://koyu.space/blu256/atom.xml" rel="self" />
 	<link href="gemini://koyu.space/blu256" />
 	<id>urn:uuid:8ab77f24-e45c-4250-8c6c-f3885a69ffc6</id>
-	<updated>2021-09-21 13:24:00Z</updated>
+	<updated>2021-10-01 15:16:00Z</updated>
+
+	<entry>
+		<title>tdeio-gemini postponed</title>
+		<link href="gemini://koyu.space/blu256/tdeio-gemini-postponed.gmi"/>
+		<id>urn:uuid:78d0cc17-229d-4214-b745-d088a114347e</id>
+		<updated>2021-10-01T15:16:00Z</updated>
+	</entry>
 
 	<entry>
 		<title>A Tale of the Bloated Web</title>
