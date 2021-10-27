@@ -1,0 +1,54 @@
+# Is Obsolete Technology Obsolete?
+by blu.256
+2021/10/27
+
+## Prologue
+It shouldn't be that surprising that a particular technology will eventually be superseded by another: better, cooler, shinier. The superseded technologies usually have no practical benefits that the newer ones miss, so it gradually displaces the older technology (which continues to be used by much less people). Right?
+
+If I'd fully agree with this point of view, I wouldn't be writing this article, would I?
+
+So, on multiple occasions I have heard people saying CDs and DVDs are obsolete technology. Indeed, USB drives are cheaper than they used to be and other storage options are still available (SD memory cards, portable SSD, even the Internet). But are CDs and DVDs goners like tapes (cassettes)? Do they really have no advantages over the other media?
+
+Now, don't get me wrong. I have nothing against *any* type of storage media and I'm not (AFAIK) any kind of annoying luddite. It was just this occasion that made me think: how do we define obsolete technology? Why some useful technologies are tagged as obsolete?
+
+## Tech as a Fashion
+> If it works, it's obsolete (Marshall McLuhan)
+
+Surely most of us know of cases where technology is actually treated as fashion. I think I don't need to remind you, my dear reader, of the high-bucks smartphone industry and its practices. Even without the hype which surrounds the release of some flagman models and the consumerist urge to "buy a new phone every year", there is still scheduled obsolence. Most phones are not meant to last because if they did, many a company would have gone out of business.
+
+Leaving technology fetishism and banned practices aside, there are still cases where existing technology is replaced with another one with little to no gain, just for the sake of it. Such a case is, in my opinion, the Plasma desktop. Sure, there were some neat ideas in Plasma. But why not build them on the existing solid KDE3 platform? Why a full rewrite, risking bugs and a long period of instability?
+
+## What are CDs/DVDs good for?
+But let's get back to DVDs. The opinion that CDs and DVDs are obsolete has been around for some time. And I think the first mention I came across was (coincidentally?) a Microsoft article on why it wouldn't include a CD/DVD driver in Windows 10. The phrase was there. It said that CDs are obsolete. Full stop, no choice. Around that time laptop manufacturers started getting rid of CD drives. By now you'd be extremely lucky to find a laptop with one.
+
+CDs and DVDs had some distinct qualities about them. Movies, audio, software used to come on CDs and DVDs. Why? CD-R and DVD-R discs can be burned only once, and that is one of their distinctive characteristics. And with Video DVDs you can create a menu of the different chapters of the video. What would be the alternative to this? Autorun.inf?
+
+What is the physical alternative to DVDs? USB sticks? SD cards? None of those have become a good alternative to the CDs and DVDs as a physical medium. Of course, there is the Internet, but it has its own deal of problems plus you can't take it with you on an airplane or put neatly in a bookshelf. And, really, there is too much information noise on the Internet. Sometimes what you need is just to relax.
+
+## Alternative views on technology
+Not so long ago I made a poll on Mastodon, asking people which technologies they considered obsolete. Only 4 people voted, but these are the results anyway:
+
+```
+50%  Audio Cassettes/DV Tapes |#####     |
+ 0%  CD/DVD                   |          |
+ 0%  USB Stick                |          |
+ 0%  Memory card              |          |
+50%  None of the above        |#####     |
+```
+
+Of course nobody considers USB Sticks and SD memory cards "obsolete" (not even Microsoft it seems).
+
+Half the people voted for audio cassettes and DV (VHS) tapes and I somewhat agree with them. Tapes are cool, but there are better storage media around. They are still relevant, though, if only for their psychological value (or coolness factor). In fact, every technology has something to offer to its users, who can find new uses and gratifications even for technically "obsolete" technology.
+
+An opinion was also voiced in the vote comments, on a perspective that felt close to what I believe about technology and its lifetime:
+
+> I take the Kevin Kelly perpective on technology, that it never truly dies, it just becomes increasingly niche.
+> My perspective: If a piece of technology was capable and useful when it was introduced, it is useful and capable now.
+> (@CosmisTortoise@koyu.space)
+
+## New tech vs. proven tech
+Last but not least, even a newer, better-cooler-shinier technology, may, in fact, fail to displace another, extremely common and proven technology. The simplest example of this is as simple as a toothbrush. There are, of course, semi-automatic toothbrushes which work on batteries, but even though they were advertised as "the next big thing", they did not actually gain much popularity.
+
+In this aspect, wireless mice were more popular, because they had something unique to offer: they were more portable than classic mice and well suited for travel.
+
+Why did they not replace classic wired mice, though? The answer is annoyingly simple: they needed to have batteries changed too often.

@@ -4,7 +4,14 @@
 	<link href="gemini://koyu.space/blu256/atom.xml" rel="self" />
 	<link href="gemini://koyu.space/blu256" />
 	<id>urn:uuid:8ab77f24-e45c-4250-8c6c-f3885a69ffc6</id>
-	<updated>2021-10-01 15:16:00Z</updated>
+	<updated>2021-10-27 19:15:00Z</updated>
+
+	<entry>
+		<title>Is Obsolete Tech Obsolete?</title>
+		<link href="gemini://koyu.space/blu256/obsolete-tech.gmi"/>
+		<id>urn:uuid:6a40229b-4fc3-443f-9898-58c909cacd25</id>
+		<updated>2021-10-27 19:15:00Z</updated>
+	</entry>
 
 	<entry>
 		<title>tdeio-gemini postponed</title>
