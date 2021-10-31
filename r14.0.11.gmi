@@ -1,0 +1,72 @@
+# Release: TDE R14.0.11
+
+It's the last day of October and the next version of the Trinity Desktop Environment has been released not long ago. It's about time for another write-up on what the new release has to bring to its users (I want to establish this as a personal tradition).
+
+R14.0.11 is a maintenance release, meaning no breaking changes have occured. The release incudes two new window decorations, a new screensaver, Arch Linux support and a lot of bugfixes and compatibility fixes.
+
+# Overview
+## Applications
+### SUSE2 and DeKorator
+The SUSE2 and DeKorator window decorations are now officially under the TDE umbrella.
+
+SUSE2 imitates the look and feel of the original openSUSE 9.3/10.0/10.1 KDE3 window decorations, complete with a colorscheme and the little chameleon logo (as well as several others). It was requested by a community member on the users mailing list. A little bit of nostalgy can't be harmful ;-)
+
+DeKorator is a pixmap window decoration engine (just like the bundled IceWM engine, only much more powerful and customizable). The Trinity version is compatible with the newer DeKorator styles (nothing has changed much after all). One of the release screenshots shows DeKorator with a custom-made theme (I have uploaded it to OpenDesktop, but still waiting for them to include the DeKorator category on trinity-look.org).
+
+### TDESSHAskPass
+TDESSHAskPass is a SSH password dialog which integrates nicely into the Trinity Desktop. It uses the TDEWallet subsystem to securely store passwords.
+
+### TDEIO-Gopher
+Yes, tdeio-gopher has been around in TGW for quite some time but it has finally made it into a release. It's a little hack from the KDE3 days, but it seems to work well for most purposes.
+
+### TDEAsciiquarium
+As you may guess from the name, TDEAsciiquarium is an ASCII art aquarium screensaver for TDE.
+
+## Bugfixes and nhancements
+### Variable font DPI support
+Previously the font DPI setting was limited to either 96 or 120 dpi. Now you can set it to any number between 64 and 512, which should be enough for most cases.
+
+### Kopete webcam support
+Kopete now works correctly with V4L2 and modern webcams. The webcam support code was an unholy mess of low-level old V4L and newer V4L2 code. For that matter it is still an unholy mess, but at least legacy V4L and newer V4L2 code are now better separated and used accordingly. I don't know how actually useful is webcam support in Kopete at this stage, but it's one less thing broken after all. It may prove useful in the future, e.g. if a new protocol with videocall support is added to Kopete or if the appropriate code is to be reused.
+
+### KNemo
+KNemo now uses the "sys" backend by default. As a result, it should now work out-of-the-box on most systems.
+
+### Classic TDE Menu search line
+The classic-style TDE Menu now has a configurable search shortcut. You're no longer limited to '/' — you can set the shortcut of your preference, even two or none at all!
+
+### Akode now uses FFmpeg 4.x
+The Akode audio decoder/backend now uses the 4.x API of FFmpeg. As a result, it should offer better compatibility with the actual versions of FFmpeg.
+
+### OpenDesktop support
+TDE can now again benefit from Pling/OpenDesktop integration. The API URL has been updated and some bugs have been fixed in applications related to TDENewStuff (OpenDesktop integration), like Kopete's theme downloader.
+
+### KWeather Sidebar revival
+The long-abandoned KWeather sidebar for Konqueror is now in a working state, with a new style and enhancements for a better experience.
+
+### KXkb flags
+The KXkb tray icon/flag is now somewhat customizable. You can choose whether to display only the flag, only the label or both (KDE3 style). The label is fully customizable, too. You can select the font and colors or even let the colours be influenced by the used color scheme!
+
+Some minor improvements to the actual flag pixmaps have also taken place.
+
+### "Print to PDF" and GhostScript >=9.51
+An API change has taken in GhostScript beginning with version 9.51. The "Print to PDF" function now works correctly after this change.
+
+### KOrganizer and locked screen notifications
+KOrganizer will no longer display notifications (which can potentially contain personal/sensitive information) on top of locked screens.
+
+### Bugfixes related to file formats
+* Malformed SVG files no longer hang TDE applications.
+* AAC files no longer make K3b crash.
+
+# Links
+The full release notes can be found on the wiki:
+=> https://wiki.trinitydesktop.org/Release_Notes_For_R14.0.11	Release Notes
+
+An (even fuller) changelog is also available:
+=> https://wiki.trinitydesktop.org/Changelog_For_R14.0.11		ChangeLog
+
+# Epilogue
+Wow, a lot has been done since the previous maintenance release. It's nice to see TDE gaining traction and attracting the attention it deserves. It's the second release since I have started to contribute to TDE and I have not regretted it since.
+
+Some say Trinity will not succeed because it's breaking compatibility with KDE3, others are frowning upon TQt, Trinity's Qt3 fork. I'm more and more convinced that Trinity is actually following the correct path, and is doing well. It's another living choice (and a rather unique one) in the Linux desktop world and it deserves to gain more attention.
