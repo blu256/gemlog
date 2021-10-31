@@ -6,6 +6,7 @@
  █   █    █    █   █           ▄▀        █ █    █
  ██▄█▀    ▀▄▄  ▀▄▄▀█    █    ▄█▄▄▄▄ ▀▄▄▄█▀  █▄▄█▀
 ..................................................
+    All material licensed under CC BY-SA 4.0
 ```
 
 # Who am I?
@@ -51,4 +52,3 @@ This article would probably be of interest to Geminauts, as it touches on a comm
 => tde14.0.10.gmi  	    	Release: TDE 14.0.10
 
 This one article is about what's new the latest release of the Trinity Desktop Environment. I decided to write this down for whoever cared, because I really like TDE and sometimes contribute stuff.
-
