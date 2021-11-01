@@ -19,7 +19,7 @@
 ## 2021/10/31
 Trinity Desktop Environment R14.0.11 has been released.
 
-=> r14.0.11.gmi The soon-to-become-traditional write-up on the changes is here.
+=> tde14.0.11.gmi The soon-to-become-traditional write-up on the changes is here.
 
 ## 2021/10/27
 At last publishing an article I promised — where I briefly ponder on the obsolence of technology.
