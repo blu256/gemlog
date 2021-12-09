@@ -4,7 +4,14 @@
 	<link href="gemini://koyu.space/blu256/atom.xml" rel="self" />
 	<link href="gemini://koyu.space/blu256" />
 	<id>urn:uuid:8ab77f24-e45c-4250-8c6c-f3885a69ffc6</id>
-	<updated>2021-11-02 11:00:00Z</updated>
+	<updated>2021-12-09 20:10:00Z</updated>
+
+    <entry>
+        <title>Cop26, or Climate Change is No Joke</title>
+        <link href="gemini://koyu.space/blu256/cop26.gmi"/>
+        <id>urn:uuid:466ffc7c-592a-11ec-8c1b-139df113dba2</id>
+        <updated>2021-12-09 20:10:00Z</updated>
+    </entry>
 
 	<entry>
 		<title>Release: TDE R14.0.11</title>
