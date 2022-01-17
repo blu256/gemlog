@@ -7,3 +7,5 @@ Jabber:		blu.256@jabb.im
 Planet Earth
 Sector ZZ9 Plural Z A
 ```
+
+=> index.gmi < Jump to the main page

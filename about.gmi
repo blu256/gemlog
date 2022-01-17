@@ -1,30 +1,37 @@
 # About me
-
 I am a technology enthusiast, programmer and mass communications student.
 
 ## My interests
 * technology
 * free & open-source software
-* privacy
-* mass media
+* culture & mass media
 * vintage software
+* most sciences
+* philosophy
+* sci-fi
+* poetry
 * and many more!
 
 ## Favourite software/technologies
-* Slackware Linux
 * Devuan GNU/Linux
-* HaikuOS
+* Slackware Linux
 * Trinity Desktop Environment
-* PaleMoon Web Browser
+* HaikuOS
 * Gemini protocol
-* Gkrellm
-* Enlightenment E16
 * Git
+* Lagrange
+
+## Languages
+* English
+* Greek
+* Russian
+* French (a little)
+* Esperanto (beginner)
 
 ## As a developer
-When I have the time, I participate as a developer and translator (Greek, English, Esperanto) in the Trinity Desktop Environment and as an interface translator (Greek) in HaikuOS:
+In my free time I participate as a developer and translator (Greek, Russian) in the Trinity Desktop Environment and as an interface translator (Greek) in HaikuOS:
 => https://trinitydesktop.org	Trinity Desktop Environment
-=> https://haiku-os.org		HaikuOS
+=> https://haiku-os.org		    HaikuOS
 
 ## Geek Code
 A geek code block (just for the fun of it):

@@ -1,17 +1,15 @@
 # Introductory post
 
-Hello and welcome to my Gemini capsule!
+Hello and welcome to my Gemini capsule! 
 
-I'm known by the pseudonym of blu.256 and I'm to be your host for tonight (just kidding).
+I am blu.256 and I'm to be your host for tonight (just kidding). My interests revolve around technology, sciences (most of them), philosophy, software freedom, mass media and many other topics.
 
-My interests revolve around technology, software freedom, privacy,
-mass media and many other topics.
+There is an Atom feed you can subscribe to and a Greek sub-gemlog coming soon!
 
-At present there might be not much to see here. For now I plan to migrate here two articles I originally wrote for my old blog, which I have decided to discontinue.
-
-An Atom feed is planned soon, too.
-
-## Changelog
-```
+# Changelog
+```List of changes
 2021/09/20  Initial version
+2022/01/17  Rewritten and updated
 ```
+
+=> index.gmi < Jump to the main page
