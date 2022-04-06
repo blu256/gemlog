@@ -5,16 +5,18 @@ I am a technology enthusiast, programmer and mass communications student.
 * technology
 * free & open-source software
 * culture & mass media
+* sci-fi
+* web-comics
+* poetry
+* art
 * vintage software
 * most sciences
 * philosophy
-* sci-fi
-* poetry
 * and many more!
 
 ## Favourite software/technologies
-* Devuan GNU/Linux
 * Slackware Linux
+* Devuan GNU/Linux
 * Trinity Desktop Environment
 * HaikuOS
 * Gemini protocol
@@ -22,11 +24,13 @@ I am a technology enthusiast, programmer and mass communications student.
 * Lagrange
 
 ## Languages
-* English
-* Greek
-* Russian
-* French (a little)
-* Esperanto (beginner)
+* Greek: fluent
+* Russian: fluent
+* English: good enough™
+* French: un peu
+* Esperanto: learning
+* Ukrainian: a little
+* Italian: wanting to learn
 
 ## As a developer
 In my free time I participate as a developer and translator (Greek, Russian) in the Trinity Desktop Environment and as an interface translator (Greek) in HaikuOS:
