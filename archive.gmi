@@ -2,6 +2,14 @@
 
 => index.gmi Return to main page
 
+## 2022/01/27
+New ASCII art! Isn't it nifty? ;-)
+
+I plan to publish a few articles here, and probably some (hopefully good) fiction... oh well, there is always Bulwer-Lytton.
+
+More importantly, I plan to create a sub-gemlog where I will publish content in Greek. I'd be the first in Geminispace to do so but HELLUG has beaten this record.
+
+=> gemini://hellug.gr HELLUG, the Hellenic Linux User Group
 
 ## 2021/12/09
 A short opinion piece about Cop26, climate hypocrisy and Boris Johnson.

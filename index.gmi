@@ -15,21 +15,15 @@
 ```
 
 # Capsule news
-## 2022/01/27
-New ASCII art! Isn't it nifty? ;-)
+## 2022/04/06
+Finally I'm back to my gemini capsule. And it's not just a capsule now; in fact, it's now two capsules. Today I'm at last launching the Greek 'capsulette' where I will be writing in (surprise surprise!) Greek.
 
-I plan to publish a few articles here, and probably some (hopefully good) fiction... oh well, there is always Bulwer-Lytton.
+You can visit it now but don't expect anything worth it yet.
 
-More importantly, I plan to create a sub-gemlog where I will publish content in Greek. I'd be the first in Geminispace to do so but HELLUG has beaten this record.
+=> el/index.gmi Η ελληνική μεριά της κάψουλας
 
-=> gemini://hellug.gr HELLUG, the Hellenic Linux User Group
-
-```(separator)
-▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔▔
-```
-
-=> archive.gmi (See older entries in the news archive ⟶)
-
+# News archive
+=> archive.gmi See older entries in the news archive ⟶
 
 # Who am I?
 
