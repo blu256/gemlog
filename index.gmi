@@ -21,6 +21,7 @@ Finally I'm back to my gemini capsule. And it's not just a capsule now; in fact,
 You can visit it now but don't expect anything worth it yet.
 
 => el/index.gmi Η ελληνική μεριά της κάψουλας
+=> el.gmi A post discussing some of the challenges of posting on Gemini
 
 # News archive
 => archive.gmi See older entries in the news archive ⟶
