@@ -1,0 +1,27 @@
+# Gemini Capsule in Greek
+
+So, that's it. I've launched a separate section of my capsule which I'll publish in Greek. It is pretty empty right now; I've only put there a few old poems I wrote because I didn't want to have the 'THIS PAGE INTENTIONALLY LEFT BLANK' kind of pages ;-).
+
+=> el/index.gmi Η ελληνική μεριά της κάψουλάς μου
+
+I'm taking this as a chance to ponder some issues I have been thinking about and why it took me so long to actually get to creating it.
+
+## Not writing in English
+
+The primary language of Geminispace, as is of the Internet as whole, is arguably English. That is why so many people prefer it to their native tongues - it's that it is everywhere. It's the 'lingua franca' of the modern world.
+
+This gives us an interesting dilemma: by writing in English, you communicate with more people, but contribute to your own language being used less on the Internet, while by not writing in English, you can reach less people but it gives communication somewhat of a more 'personal' tone: you are better acquainted with the nuances of the language, the associated culture and mindset and thus can write more interesting pieces. It also can make it easier to start writing, at least for me.
+
+So, what would one write in their native language for Gemini, especially if they do have a capsule in English? Duplicating content would be boring (and probably superfluous, since most people can read in English, you could as well have written everything in English in the first place). A more interesting approach would be to have different contents and translating only select posts to English. Maybe posts that you want to be more 'personal', that you want to give a little more thought to later, or something culturally or geographically specific that might not interest non-speakers could certainly be part of the 'native language' part of the capsule.
+
+[I know Lagrange can translate pages, but not all clients can do that and you can't get very far with solely a machine translation.]
+
+# Not enough time, not good enough tools
+Many of us have little free time, and sometimes it's in places other than home. Carrying a laptop around can be quite annoying. I myself find it hard to find time to write here because, well, it requires me to concentrate, devoting a significant part of my free time, and to have a laptop with me, which I often don't. I still have not found a sensible way to put my smartphone up to this task (I usually carry it with me so why not try to use it to this end?) as I need to have Git access and a decent text editor to be able to write and publish. I've even tried setting up git with Termux, but ran into an issue with GPG commit signing.
+
+Don't get me wrong. Git is very useful for tracking changes and different branches in my gemlog, but commiting and pushing are extremely hard, if not impossible, to do on a smartphone.
+
+--
+CC BY-SA 4.0
+2022/04/06
+blu.256

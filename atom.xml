@@ -4,7 +4,14 @@
 	<link href="gemini://koyu.space/blu256/atom.xml" rel="self" />
 	<link href="gemini://koyu.space/blu256" />
 	<id>urn:uuid:8ab77f24-e45c-4250-8c6c-f3885a69ffc6</id>
-	<updated>2021-12-09 20:10:00Z</updated>
+	<updated>2022-04-06 20:36:00Z</updated>
+
+    <entry>
+        <title>Gemini Capsule in Greek/title>
+        <link href="gemini://koyu.space/blu256/el.gmi"/>
+        <id>urn:uuid:id:89891f2c-b5e9-11ec-a771-ff3e7647eda7</id>
+        <updated>2022-04-06 20:36:00Z</updated>
+    </entry>
 
     <entry>
         <title>Cop26, or Climate Change is No Joke</title>
