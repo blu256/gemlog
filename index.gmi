@@ -15,6 +15,11 @@
 ```
 
 # Capsule news
+## 2022/05/01
+Summary of the new Trinity Desktop release R14.0.12:
+
+=> tde14.0.12.gmi Read here
+
 ## 2022/04/06
 Finally I'm back to my gemini capsule. And it's not just a capsule now; in fact, it's now two capsules. Today I'm at last launching the Greek 'capsulette' where I will be writing in (surprise surprise!) Greek.
 

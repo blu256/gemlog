@@ -1,0 +1,82 @@
+# Trinity Desktop R14.0.12
+
+Welcome to yet another summary of a new Trinity Desktop Environment release, served to you through Gemini (wonder if anyone ever reads this thing).
+
+## Intro
+
+It's yet another maintenance release, but this makes us ever closer to a major R14.1.0 release. Let me first explain a little bit for those who need it. A maintenance release (or minor release) generally contains bug fixes and minor enhancements. It can contain new features and new applications but on the condition that there are no major changes and no API changes at all. This means that the most ground-breaking features go to the R14.1.0 branch.
+
+Still, this release does have important things to offer its users. Let's go through them:
+
+## Enhancements
+
+### Markdown viewer
+Konqueror can now view Markdown files thanks to a new embeddable viewer (TDEMarkdown) included with the core libraries. I wrote it to be quick and minimalistic, and based it on the `md4c` library to avoid reinventing the wheel. When I resume work on `tdeio-gemini` (it's not top-priority right now) I plan to create a parser which will combine Gemtext and Markdown (and probably a more full-featured Markdown part, which will NOT replace the one in tdelibs).
+
+### PolKit integration
+Some new polkit-related components have been added to TDE: a polkit library and a polkit agent. Hopefully this will integrate the polkit authentication into TDE. A possible use-case would be unlocking an encrypted drive attached to the system.
+
+### Quanta enhancements
+Quanta Plus, the WYSIWYG HTML editor, got some enhancements. In particular, HTML5 support was added (though the built-in viewer will probably not render it correctly). Also, the visual editor now enjoys the same input method support with other parts of the Trinity Desktop, fixing a long-standing bug present since the KDE3 era.
+
+### KSSL enhancements
+The root certificate of Let's Encrypt has been added to the internal certificate storage, ensuring that a big part of HTTPS web-sites now don't ask for confirmation to connect.
+
+For R14.1.0 it is planned to move away from the internal storage (which is bound to get outdated) and instead rely on the root certificates present in the operating system.
+
+### Aesthetic enhancements
+Kxkb can now have a transparent background. The relevant options tab has been improved: now options which are not applicable to the currently selected indicator mode are disabled, which makes it clear which options will have effect in a particular indicator mode.
+
+A checkbox has been added to the Konsole options which enables true transparency. By default it is left disabled, which results in a "fake" transparency to the desktop wallpaper.
+
+### Miscellaneous
+* For the Python SIP bindings, initial support has been added for Python 3.
+* The ICC profile can now be set using Argyll.
+* Several packages have been migrated to CMake.
+
+## Bug fixes
+Note: where applicable, a link to the corresponding issue/bug report is provided.
+
+### Core
+* Fixed a bug where ICEAuthority ownership would be stolen by root when running programs using `tdesu` [1];
+* Fixed a bug which made it impossible to send DCOP commands to users' sessions by root [2];
+* A delay was fixed in the DBus service which would affect the first DBus call;
+* A segfault was eliminated which was related to an ELF reading error [3];
+* Another segfault was fixed which occured when removing a device while the Device list dialog was open;
+* Fixed detection of some XScreenSaver screensavers (e.g. RSS-GLX) [4];
+* A conflict was resolved between `tdm` and `plymouth` which hanged the system shutdown process.
+
+### Applications
+* In Amarok, the default scoring script was updated to work correctly with latest Ruby versions;
+* In KMail, redirecting a message now uses the user's default account;
+* In gtk2-qt-engine, a bug was fixed which caused non-ASCII characters in the user's .bashrc to become corrupted due to not saving in a 8-bit encoding.
+
+## Library support
+* In KPDF, support was added for Poppler versions 21.11 and higher;
+* In Kaffeine, detection of libdvdcss was fixed;
+* In Kexi, support was added for PostgreSQL 12 and later.
+
+## Outro
+
+This maintenance release resolves some annoying issues users might have come accross (e.g. related to KSSL, Amarok, Quanta) and improves the stability of the environment overall, while keeping compatibility with newer library versions and providing new minor features.
+
+Meanwhile, a considerable amount of work is going into new, bigger features, which will make part of R14.1.0, such as:
+=> https://mirror.git.trinitydesktop.org/gitea/TDE/tdebase/pulls/266      Taskbar improvements
+=> https://mirror.git.trinitydesktop.org/gitea/TDE/tdemultimedia/pulls/35 Revamped KMix settings dialog
+=> https://mirror.git.trinitydesktop.org/gitea/TDE/tdemultimedia/pulls/31 New KMix system tray indicator icons
+
+You can go grab the latest R14.0.12 release from the official repositories or build the latest master if you'd like to be ahead of time ;-). Or you could help testing some of the new features. Just get in touch with our little friendly team.
+=> https://wiki.trinitydesktop.org/Category:Installation Installation Instructions
+=> https://www.trinitydesktop.org/helpwanted.php         Getting Involved with Trinity Development
+=> https://www.trinitydesktop.org/support.php            Contact information
+
+Consider joining the unofficial TDE users' Matrix room:
+=> https://matrix.to/#/#trinity-desktop:halogen.city #trinity-desktop at halogen.city
+
+
+## References
+
+=> https://mirror.git.trinitydesktop.org/gitea/TDE/tde/issues/77        [1]
+=> https://mirror.git.trinitydesktop.org/gitea/TDE/tdebase/issues/262   [2]
+=> https://mirror.git.trinitydesktop.org/gitea/TDE/tdebase/issues/241   [3]
+=> https://mirror.git.trinitydesktop.org/gitea/TDE/tdeartwork/issues/19 [4]
